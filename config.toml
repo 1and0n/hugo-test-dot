@@ -1,0 +1,62 @@
+baseURL = "gethugothemes.com"
+theme = "dot"
+
+
+[params]
+primaryColor = "#02007e"
+secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#242738"
+whiteColor = "#ffffff"
+
+[Languages]
+
+  # English Language
+  [Languages.en]
+  languageName = "En"
+  weight = 1
+  languageCode = "en-us"
+  title = "Doc List"
+  dateFormat = "2 January 2006"
+  home = "Home"
+  logo = "BFITEC"
+  copyright = "© 2019 BF Innovative Technologies"
+
+    # navigation
+    [Languages.en.menu]
+
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "projects"
+        url = "/faq"
+
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "contact"
+        url = "/contact"
+
+
+
+    # banner
+    [Languages.en.params.banner]
+      title = "BF Innovative Technology"
+      description = "Creating the innovative tech of tomorrow."
+      image = "images/banner.jpg"
+      placeholder = "Have a question? Just ask here or enter terms"
+
+    # Topics
+    [Languages.en.params.topics]
+      title = "Find your answer by subject"
+
+    # call to action
+    [Languages.en.params.cta]
+      enable = true
+      title = "Didn't find an answer to your question?"
+      description = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+      btnText = "contact us"
+      btnURL = "/contact"
+
+    # contact
+    [Languages.en.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
